@@ -10,14 +10,11 @@ class MyWin(QtWidgets.QMainWindow, Ui_MainWindow):
         self.cardinsert.clicked.connect(self.openDialog)
 
     def openDialog(self):
-        d = Dialog(self)
-        d.show()
-
-
-class Dialog(QtWidgets.QDialog, Ui_Dialog):
-    def __init__(self, parent=None):
-        QtGui.QDialog.__init__(self, parent)
-        self.setupUi(self)
+        dialog = QtWidgets.QDialog()
+        dialog.ui = Ui_Dialog()
+        dialog.ui.setupUi(dialog)
+        dialog.exec_()
+        dialog.show()
 
 
 if __name__ == "__main__":
