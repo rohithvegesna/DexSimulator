@@ -40,7 +40,7 @@
                     <item>
                      <layout class="QHBoxLayout" name="horizontalLayout_7">
                       <item>
-                       <widget class="QPushButton" name="crindsendled">
+                       <widget class="QPushButton" name="led_crindsend">
                         <property name="sizePolicy">
                          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                           <horstretch>0</horstretch>
@@ -68,7 +68,7 @@
                        </widget>
                       </item>
                       <item>
-                       <widget class="QPushButton" name="crindreceiveled">
+                       <widget class="QPushButton" name="led_crindreceive">
                         <property name="sizePolicy">
                          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                           <horstretch>0</horstretch>
@@ -122,7 +122,7 @@
                     <item>
                      <layout class="QHBoxLayout" name="horizontalLayout_10">
                       <item>
-                       <widget class="QPushButton" name="pumpsendled">
+                       <widget class="QPushButton" name="led_pumpsend">
                         <property name="sizePolicy">
                          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                           <horstretch>0</horstretch>
@@ -150,7 +150,7 @@
                        </widget>
                       </item>
                       <item>
-                       <widget class="QPushButton" name="pumpreceiveled">
+                       <widget class="QPushButton" name="led_pumpreceive">
                         <property name="sizePolicy">
                          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                           <horstretch>0</horstretch>
@@ -323,7 +323,7 @@ color: rgb(0, 0, 0);</string>
                 <item>
                  <layout class="QVBoxLayout" name="verticalLayout_3">
                   <item>
-                   <widget class="QPushButton" name="pushButton_17">
+                   <widget class="QPushButton" name="btn_softkey_1">
                     <property name="sizePolicy">
                      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                       <horstretch>0</horstretch>
@@ -339,7 +339,7 @@ color: rgb(0, 0, 0);</string>
                    </widget>
                   </item>
                   <item>
-                   <widget class="QPushButton" name="pushButton_18">
+                   <widget class="QPushButton" name="btn_softkey_2">
                     <property name="sizePolicy">
                      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                       <horstretch>0</horstretch>
@@ -355,7 +355,7 @@ color: rgb(0, 0, 0);</string>
                    </widget>
                   </item>
                   <item>
-                   <widget class="QPushButton" name="pushButton_19">
+                   <widget class="QPushButton" name="btn_softkey_3">
                     <property name="sizePolicy">
                      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                       <horstretch>0</horstretch>
@@ -371,7 +371,7 @@ color: rgb(0, 0, 0);</string>
                    </widget>
                   </item>
                   <item>
-                   <widget class="QPushButton" name="pushButton_20">
+                   <widget class="QPushButton" name="btn_softkey_4">
                     <property name="sizePolicy">
                      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                       <horstretch>0</horstretch>
@@ -389,7 +389,7 @@ color: rgb(0, 0, 0);</string>
                  </layout>
                 </item>
                 <item>
-                 <widget class="QTextBrowser" name="screen">
+                 <widget class="QLabel" name="screen">
                   <property name="minimumSize">
                    <size>
                     <width>288</width>
@@ -405,16 +405,26 @@ color: rgb(0, 0, 0);</string>
                   <property name="font">
                    <font>
                     <family>Calibri</family>
+                    <pointsize>10</pointsize>
                     <weight>75</weight>
                     <bold>true</bold>
                    </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string>PLEASE PAY INSIDE</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
                   </property>
                  </widget>
                 </item>
                 <item>
                  <layout class="QVBoxLayout" name="verticalLayout_4">
                   <item>
-                   <widget class="QPushButton" name="pushButton_21">
+                   <widget class="QPushButton" name="btn_softkey_5">
                     <property name="sizePolicy">
                      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                       <horstretch>0</horstretch>
@@ -430,7 +440,7 @@ color: rgb(0, 0, 0);</string>
                    </widget>
                   </item>
                   <item>
-                   <widget class="QPushButton" name="pushButton_22">
+                   <widget class="QPushButton" name="btn_softkey_6">
                     <property name="sizePolicy">
                      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                       <horstretch>0</horstretch>
@@ -446,7 +456,7 @@ color: rgb(0, 0, 0);</string>
                    </widget>
                   </item>
                   <item>
-                   <widget class="QPushButton" name="pushButton_23">
+                   <widget class="QPushButton" name="btn_softkey_7">
                     <property name="sizePolicy">
                      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                       <horstretch>0</horstretch>
@@ -462,7 +472,7 @@ color: rgb(0, 0, 0);</string>
                    </widget>
                   </item>
                   <item>
-                   <widget class="QPushButton" name="pushButton_24">
+                   <widget class="QPushButton" name="btn_softkey_8">
                     <property name="sizePolicy">
                      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                       <horstretch>0</horstretch>
@@ -484,7 +494,7 @@ color: rgb(0, 0, 0);</string>
              </layout>
             </item>
             <item>
-             <widget class="QPushButton" name="cardinsert">
+             <widget class="QPushButton" name="btn_cardinsert">
               <property name="sizePolicy">
                <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                 <horstretch>0</horstretch>
@@ -513,7 +523,7 @@ color: rgb(0, 0, 0);</string>
             <item>
              <layout class="QVBoxLayout" name="verticalLayout_5">
               <item>
-               <widget class="QPushButton" name="pushButton">
+               <widget class="QPushButton" name="btn_key_1">
                 <property name="sizePolicy">
                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                   <horstretch>0</horstretch>
@@ -537,7 +547,7 @@ color: rgb(0, 0, 0);</string>
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="pushButton_5">
+               <widget class="QPushButton" name="btn_key_4">
                 <property name="sizePolicy">
                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                   <horstretch>0</horstretch>
@@ -561,7 +571,7 @@ color: rgb(0, 0, 0);</string>
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="pushButton_9">
+               <widget class="QPushButton" name="btn_key_7">
                 <property name="sizePolicy">
                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                   <horstretch>0</horstretch>
@@ -585,7 +595,7 @@ color: rgb(0, 0, 0);</string>
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="pushButton_13">
+               <widget class="QPushButton" name="btn_key_clear">
                 <property name="sizePolicy">
                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                   <horstretch>0</horstretch>
@@ -612,7 +622,7 @@ color: rgb(0, 0, 0);</string>
             <item>
              <layout class="QVBoxLayout" name="verticalLayout_6">
               <item>
-               <widget class="QPushButton" name="pushButton_2">
+               <widget class="QPushButton" name="btn_key_2">
                 <property name="sizePolicy">
                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                   <horstretch>0</horstretch>
@@ -636,7 +646,7 @@ color: rgb(0, 0, 0);</string>
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="pushButton_6">
+               <widget class="QPushButton" name="btn_key_5">
                 <property name="sizePolicy">
                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                   <horstretch>0</horstretch>
@@ -655,12 +665,12 @@ color: rgb(0, 0, 0);</string>
                 </property>
                 <property name="text">
                  <string>JKL
-4</string>
+5</string>
                 </property>
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="pushButton_10">
+               <widget class="QPushButton" name="btn_key_8">
                 <property name="sizePolicy">
                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                   <horstretch>0</horstretch>
@@ -684,7 +694,7 @@ color: rgb(0, 0, 0);</string>
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="pushButton_14">
+               <widget class="QPushButton" name="btn_key_0">
                 <property name="sizePolicy">
                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                   <horstretch>0</horstretch>
@@ -711,7 +721,7 @@ color: rgb(0, 0, 0);</string>
             <item>
              <layout class="QVBoxLayout" name="verticalLayout_7">
               <item>
-               <widget class="QPushButton" name="pushButton_3">
+               <widget class="QPushButton" name="btn_key_3">
                 <property name="sizePolicy">
                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                   <horstretch>0</horstretch>
@@ -735,7 +745,7 @@ color: rgb(0, 0, 0);</string>
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="pushButton_7">
+               <widget class="QPushButton" name="btn_key_6">
                 <property name="sizePolicy">
                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                   <horstretch>0</horstretch>
@@ -754,12 +764,12 @@ color: rgb(0, 0, 0);</string>
                 </property>
                 <property name="text">
                  <string>MNO
-5</string>
+6</string>
                 </property>
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="pushButton_11">
+               <widget class="QPushButton" name="btn_key_9">
                 <property name="sizePolicy">
                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                   <horstretch>0</horstretch>
@@ -783,7 +793,7 @@ color: rgb(0, 0, 0);</string>
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="pushButton_15">
+               <widget class="QPushButton" name="btn_key_ok">
                 <property name="sizePolicy">
                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                   <horstretch>0</horstretch>
@@ -811,7 +821,7 @@ OK</string>
             <item>
              <layout class="QVBoxLayout" name="verticalLayout_8">
               <item>
-               <widget class="QPushButton" name="pushButton_4">
+               <widget class="QPushButton" name="btn_key_yes">
                 <property name="sizePolicy">
                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                   <horstretch>0</horstretch>
@@ -835,7 +845,7 @@ RECEIPT</string>
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="pushButton_8">
+               <widget class="QPushButton" name="btn_key_no">
                 <property name="sizePolicy">
                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                   <horstretch>0</horstretch>
@@ -858,7 +868,7 @@ RECEIPT</string>
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="pushButton_12">
+               <widget class="QPushButton" name="btn_key_cancel">
                 <property name="sizePolicy">
                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                   <horstretch>0</horstretch>
@@ -881,7 +891,7 @@ RECEIPT</string>
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="pushButton_16">
+               <widget class="QPushButton" name="btn_key_help">
                 <property name="sizePolicy">
                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                   <horstretch>0</horstretch>
@@ -928,7 +938,7 @@ RECEIPT</string>
           <item>
            <widget class="QLabel" name="gradescreen_1">
             <property name="sizePolicy">
-             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+             <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
@@ -941,7 +951,7 @@ RECEIPT</string>
             </property>
             <property name="maximumSize">
              <size>
-              <width>100</width>
+              <width>1000</width>
               <height>50</height>
              </size>
             </property>
@@ -967,7 +977,7 @@ color: rgb(0, 0, 0);</string>
            </widget>
           </item>
           <item>
-           <widget class="QPushButton" name="gradebutton_1">
+           <widget class="QPushButton" name="btn_grade_1">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
               <horstretch>0</horstretch>
@@ -996,7 +1006,7 @@ color: rgb(0, 0, 0);</string>
           <item>
            <widget class="QLabel" name="gradescreen_2">
             <property name="sizePolicy">
-             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+             <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
@@ -1009,7 +1019,7 @@ color: rgb(0, 0, 0);</string>
             </property>
             <property name="maximumSize">
              <size>
-              <width>100</width>
+              <width>1000</width>
               <height>50</height>
              </size>
             </property>
@@ -1035,7 +1045,7 @@ color: rgb(0, 0, 0);</string>
            </widget>
           </item>
           <item>
-           <widget class="QPushButton" name="gradebutton_2">
+           <widget class="QPushButton" name="btn_grade_2">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
               <horstretch>0</horstretch>
@@ -1064,7 +1074,7 @@ color: rgb(0, 0, 0);</string>
           <item>
            <widget class="QLabel" name="gradescreen_3">
             <property name="sizePolicy">
-             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+             <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
@@ -1077,7 +1087,7 @@ color: rgb(0, 0, 0);</string>
             </property>
             <property name="maximumSize">
              <size>
-              <width>100</width>
+              <width>1000</width>
               <height>50</height>
              </size>
             </property>
@@ -1103,7 +1113,7 @@ color: rgb(0, 0, 0);</string>
            </widget>
           </item>
           <item>
-           <widget class="QPushButton" name="gradebutton_3">
+           <widget class="QPushButton" name="btn_grade_3">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
               <horstretch>0</horstretch>
@@ -1132,7 +1142,7 @@ color: rgb(0, 0, 0);</string>
           <item>
            <widget class="QLabel" name="gradescreen_4">
             <property name="sizePolicy">
-             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+             <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
@@ -1145,7 +1155,7 @@ color: rgb(0, 0, 0);</string>
             </property>
             <property name="maximumSize">
              <size>
-              <width>100</width>
+              <width>1000</width>
               <height>50</height>
              </size>
             </property>
@@ -1171,7 +1181,7 @@ color: rgb(0, 0, 0);</string>
            </widget>
           </item>
           <item>
-           <widget class="QPushButton" name="gradebutton_4">
+           <widget class="QPushButton" name="btn_grade_4">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
               <horstretch>0</horstretch>
@@ -1200,7 +1210,7 @@ color: rgb(0, 0, 0);</string>
           <item>
            <widget class="QLabel" name="gradescreen_5">
             <property name="sizePolicy">
-             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+             <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
@@ -1213,7 +1223,7 @@ color: rgb(0, 0, 0);</string>
             </property>
             <property name="maximumSize">
              <size>
-              <width>100</width>
+              <width>1000</width>
               <height>50</height>
              </size>
             </property>
@@ -1239,7 +1249,7 @@ color: rgb(0, 0, 0);</string>
            </widget>
           </item>
           <item>
-           <widget class="QPushButton" name="gradebutton_5">
+           <widget class="QPushButton" name="btn_grade_5">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
               <horstretch>0</horstretch>
@@ -1268,7 +1278,7 @@ color: rgb(0, 0, 0);</string>
           <item>
            <widget class="QLabel" name="gradescreen_7">
             <property name="sizePolicy">
-             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+             <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
@@ -1281,7 +1291,7 @@ color: rgb(0, 0, 0);</string>
             </property>
             <property name="maximumSize">
              <size>
-              <width>100</width>
+              <width>1000</width>
               <height>50</height>
              </size>
             </property>
@@ -1307,7 +1317,7 @@ color: rgb(0, 0, 0);</string>
            </widget>
           </item>
           <item>
-           <widget class="QPushButton" name="gradebutton_6">
+           <widget class="QPushButton" name="btn_grade_6">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
               <horstretch>0</horstretch>
