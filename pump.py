@@ -1,12 +1,3 @@
-# -*- coding: utf-8 -*-
-
-# Form implementation generated from reading ui file 'pump.ui'
-#
-# Created by: PyQt5 UI code generator 5.14.1
-#
-# WARNING! All changes made in this file will be lost!
-
-
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 
@@ -39,10 +30,12 @@ class Ui_MainWindow(object):
         self.horizontalLayout_7 = QtWidgets.QHBoxLayout()
         self.horizontalLayout_7.setObjectName("horizontalLayout_7")
         self.led_crindsend = QtWidgets.QPushButton(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.led_crindsend.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.led_crindsend.sizePolicy().hasHeightForWidth())
         self.led_crindsend.setSizePolicy(sizePolicy)
         self.led_crindsend.setMinimumSize(QtCore.QSize(10, 10))
         self.led_crindsend.setMaximumSize(QtCore.QSize(10, 10))
@@ -51,14 +44,17 @@ class Ui_MainWindow(object):
         self.led_crindsend.setObjectName("led_crindsend")
         self.horizontalLayout_7.addWidget(self.led_crindsend)
         self.led_crindreceive = QtWidgets.QPushButton(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.led_crindreceive.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.led_crindreceive.sizePolicy().hasHeightForWidth())
         self.led_crindreceive.setSizePolicy(sizePolicy)
         self.led_crindreceive.setMinimumSize(QtCore.QSize(10, 10))
         self.led_crindreceive.setMaximumSize(QtCore.QSize(10, 10))
-        self.led_crindreceive.setStyleSheet("background-color: rgb(85, 255, 0);")
+        self.led_crindreceive.setStyleSheet(
+            "background-color: rgb(85, 255, 0);")
         self.led_crindreceive.setText("")
         self.led_crindreceive.setObjectName("led_crindreceive")
         self.horizontalLayout_7.addWidget(self.led_crindreceive)
@@ -70,7 +66,8 @@ class Ui_MainWindow(object):
         font.setBold(True)
         font.setWeight(75)
         self.label_3.setFont(font)
-        self.label_3.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
+        self.label_3.setAlignment(
+            QtCore.Qt.AlignLeading | QtCore.Qt.AlignLeft | QtCore.Qt.AlignVCenter)
         self.label_3.setObjectName("label_3")
         self.horizontalLayout_8.addWidget(self.label_3)
         self.horizontalLayout_11.addLayout(self.horizontalLayout_8)
@@ -79,10 +76,12 @@ class Ui_MainWindow(object):
         self.horizontalLayout_10 = QtWidgets.QHBoxLayout()
         self.horizontalLayout_10.setObjectName("horizontalLayout_10")
         self.led_pumpsend = QtWidgets.QPushButton(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.led_pumpsend.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.led_pumpsend.sizePolicy().hasHeightForWidth())
         self.led_pumpsend.setSizePolicy(sizePolicy)
         self.led_pumpsend.setMinimumSize(QtCore.QSize(10, 10))
         self.led_pumpsend.setMaximumSize(QtCore.QSize(10, 10))
@@ -91,14 +90,17 @@ class Ui_MainWindow(object):
         self.led_pumpsend.setObjectName("led_pumpsend")
         self.horizontalLayout_10.addWidget(self.led_pumpsend)
         self.led_pumpreceive = QtWidgets.QPushButton(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.led_pumpreceive.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.led_pumpreceive.sizePolicy().hasHeightForWidth())
         self.led_pumpreceive.setSizePolicy(sizePolicy)
         self.led_pumpreceive.setMinimumSize(QtCore.QSize(10, 10))
         self.led_pumpreceive.setMaximumSize(QtCore.QSize(10, 10))
-        self.led_pumpreceive.setStyleSheet("background-color: rgb(85, 255, 0);")
+        self.led_pumpreceive.setStyleSheet(
+            "background-color: rgb(85, 255, 0);")
         self.led_pumpreceive.setText("")
         self.led_pumpreceive.setObjectName("led_pumpreceive")
         self.horizontalLayout_10.addWidget(self.led_pumpreceive)
@@ -125,10 +127,12 @@ class Ui_MainWindow(object):
         self.label.setObjectName("label")
         self.verticalLayout.addWidget(self.label)
         self.dollars = QtWidgets.QLabel(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.dollars.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.dollars.sizePolicy().hasHeightForWidth())
         self.dollars.setSizePolicy(sizePolicy)
         self.dollars.setMinimumSize(QtCore.QSize(300, 75))
         self.dollars.setMaximumSize(QtCore.QSize(1000, 200))
@@ -140,7 +144,7 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.dollars.setFont(font)
         self.dollars.setStyleSheet("background-color: rgb(216, 216, 107);\n"
-"color: rgb(0, 0, 0);")
+                                   "color: rgb(0, 0, 0);")
         self.dollars.setAlignment(QtCore.Qt.AlignCenter)
         self.dollars.setObjectName("dollars")
         self.verticalLayout.addWidget(self.dollars)
@@ -155,10 +159,12 @@ class Ui_MainWindow(object):
         self.label_2.setObjectName("label_2")
         self.verticalLayout.addWidget(self.label_2)
         self.gallons = QtWidgets.QLabel(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.gallons.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.gallons.sizePolicy().hasHeightForWidth())
         self.gallons.setSizePolicy(sizePolicy)
         self.gallons.setMinimumSize(QtCore.QSize(300, 75))
         self.gallons.setMaximumSize(QtCore.QSize(1000, 200))
@@ -170,7 +176,7 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.gallons.setFont(font)
         self.gallons.setStyleSheet("background-color: rgb(216, 216, 107);\n"
-"color: rgb(0, 0, 0);")
+                                   "color: rgb(0, 0, 0);")
         self.gallons.setAlignment(QtCore.Qt.AlignCenter)
         self.gallons.setObjectName("gallons")
         self.verticalLayout.addWidget(self.gallons)
@@ -180,42 +186,54 @@ class Ui_MainWindow(object):
         self.verticalLayout_3 = QtWidgets.QVBoxLayout()
         self.verticalLayout_3.setObjectName("verticalLayout_3")
         self.btn_softkey_1 = QtWidgets.QPushButton(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.btn_softkey_1.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.btn_softkey_1.sizePolicy().hasHeightForWidth())
         self.btn_softkey_1.setSizePolicy(sizePolicy)
-        self.btn_softkey_1.setStyleSheet("background-color: rgb(200, 209, 197);")
+        self.btn_softkey_1.setStyleSheet(
+            "background-color: rgb(200, 209, 197);")
         self.btn_softkey_1.setText("")
         self.btn_softkey_1.setObjectName("btn_softkey_1")
         self.verticalLayout_3.addWidget(self.btn_softkey_1)
         self.btn_softkey_2 = QtWidgets.QPushButton(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.btn_softkey_2.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.btn_softkey_2.sizePolicy().hasHeightForWidth())
         self.btn_softkey_2.setSizePolicy(sizePolicy)
-        self.btn_softkey_2.setStyleSheet("background-color: rgb(200, 209, 197);")
+        self.btn_softkey_2.setStyleSheet(
+            "background-color: rgb(200, 209, 197);")
         self.btn_softkey_2.setText("")
         self.btn_softkey_2.setObjectName("btn_softkey_2")
         self.verticalLayout_3.addWidget(self.btn_softkey_2)
         self.btn_softkey_3 = QtWidgets.QPushButton(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.btn_softkey_3.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.btn_softkey_3.sizePolicy().hasHeightForWidth())
         self.btn_softkey_3.setSizePolicy(sizePolicy)
-        self.btn_softkey_3.setStyleSheet("background-color: rgb(200, 209, 197);")
+        self.btn_softkey_3.setStyleSheet(
+            "background-color: rgb(200, 209, 197);")
         self.btn_softkey_3.setText("")
         self.btn_softkey_3.setObjectName("btn_softkey_3")
         self.verticalLayout_3.addWidget(self.btn_softkey_3)
         self.btn_softkey_4 = QtWidgets.QPushButton(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.btn_softkey_4.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.btn_softkey_4.sizePolicy().hasHeightForWidth())
         self.btn_softkey_4.setSizePolicy(sizePolicy)
-        self.btn_softkey_4.setStyleSheet("background-color: rgb(200, 209, 197);")
+        self.btn_softkey_4.setStyleSheet(
+            "background-color: rgb(200, 209, 197);")
         self.btn_softkey_4.setText("")
         self.btn_softkey_4.setObjectName("btn_softkey_4")
         self.verticalLayout_3.addWidget(self.btn_softkey_4)
@@ -236,42 +254,54 @@ class Ui_MainWindow(object):
         self.verticalLayout_4 = QtWidgets.QVBoxLayout()
         self.verticalLayout_4.setObjectName("verticalLayout_4")
         self.btn_softkey_5 = QtWidgets.QPushButton(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.btn_softkey_5.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.btn_softkey_5.sizePolicy().hasHeightForWidth())
         self.btn_softkey_5.setSizePolicy(sizePolicy)
-        self.btn_softkey_5.setStyleSheet("background-color: rgb(200, 209, 197);")
+        self.btn_softkey_5.setStyleSheet(
+            "background-color: rgb(200, 209, 197);")
         self.btn_softkey_5.setText("")
         self.btn_softkey_5.setObjectName("btn_softkey_5")
         self.verticalLayout_4.addWidget(self.btn_softkey_5)
         self.btn_softkey_6 = QtWidgets.QPushButton(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.btn_softkey_6.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.btn_softkey_6.sizePolicy().hasHeightForWidth())
         self.btn_softkey_6.setSizePolicy(sizePolicy)
-        self.btn_softkey_6.setStyleSheet("background-color: rgb(200, 209, 197);")
+        self.btn_softkey_6.setStyleSheet(
+            "background-color: rgb(200, 209, 197);")
         self.btn_softkey_6.setText("")
         self.btn_softkey_6.setObjectName("btn_softkey_6")
         self.verticalLayout_4.addWidget(self.btn_softkey_6)
         self.btn_softkey_7 = QtWidgets.QPushButton(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.btn_softkey_7.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.btn_softkey_7.sizePolicy().hasHeightForWidth())
         self.btn_softkey_7.setSizePolicy(sizePolicy)
-        self.btn_softkey_7.setStyleSheet("background-color: rgb(200, 209, 197);")
+        self.btn_softkey_7.setStyleSheet(
+            "background-color: rgb(200, 209, 197);")
         self.btn_softkey_7.setText("")
         self.btn_softkey_7.setObjectName("btn_softkey_7")
         self.verticalLayout_4.addWidget(self.btn_softkey_7)
         self.btn_softkey_8 = QtWidgets.QPushButton(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.btn_softkey_8.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.btn_softkey_8.sizePolicy().hasHeightForWidth())
         self.btn_softkey_8.setSizePolicy(sizePolicy)
-        self.btn_softkey_8.setStyleSheet("background-color: rgb(200, 209, 197);")
+        self.btn_softkey_8.setStyleSheet(
+            "background-color: rgb(200, 209, 197);")
         self.btn_softkey_8.setText("")
         self.btn_softkey_8.setObjectName("btn_softkey_8")
         self.verticalLayout_4.addWidget(self.btn_softkey_8)
@@ -279,17 +309,20 @@ class Ui_MainWindow(object):
         self.verticalLayout_11.addLayout(self.horizontalLayout_5)
         self.verticalLayout_2.addLayout(self.verticalLayout_11)
         self.btn_cardinsert = QtWidgets.QPushButton(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.btn_cardinsert.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.btn_cardinsert.sizePolicy().hasHeightForWidth())
         self.btn_cardinsert.setSizePolicy(sizePolicy)
         font = QtGui.QFont()
         font.setFamily("Calibri")
         font.setBold(True)
         font.setWeight(75)
         self.btn_cardinsert.setFont(font)
-        self.btn_cardinsert.setStyleSheet("background-color: rgb(200, 209, 197);")
+        self.btn_cardinsert.setStyleSheet(
+            "background-color: rgb(200, 209, 197);")
         self.btn_cardinsert.setObjectName("btn_cardinsert")
         self.verticalLayout_2.addWidget(self.btn_cardinsert)
         self.verticalLayout_9.addLayout(self.verticalLayout_2)
@@ -298,10 +331,12 @@ class Ui_MainWindow(object):
         self.verticalLayout_5 = QtWidgets.QVBoxLayout()
         self.verticalLayout_5.setObjectName("verticalLayout_5")
         self.btn_key_1 = QtWidgets.QPushButton(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.btn_key_1.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.btn_key_1.sizePolicy().hasHeightForWidth())
         self.btn_key_1.setSizePolicy(sizePolicy)
         font = QtGui.QFont()
         font.setFamily("Calibri")
@@ -312,10 +347,12 @@ class Ui_MainWindow(object):
         self.btn_key_1.setObjectName("btn_key_1")
         self.verticalLayout_5.addWidget(self.btn_key_1)
         self.btn_key_4 = QtWidgets.QPushButton(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.btn_key_4.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.btn_key_4.sizePolicy().hasHeightForWidth())
         self.btn_key_4.setSizePolicy(sizePolicy)
         font = QtGui.QFont()
         font.setFamily("Calibri")
@@ -326,10 +363,12 @@ class Ui_MainWindow(object):
         self.btn_key_4.setObjectName("btn_key_4")
         self.verticalLayout_5.addWidget(self.btn_key_4)
         self.btn_key_7 = QtWidgets.QPushButton(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.btn_key_7.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.btn_key_7.sizePolicy().hasHeightForWidth())
         self.btn_key_7.setSizePolicy(sizePolicy)
         font = QtGui.QFont()
         font.setFamily("Calibri")
@@ -340,27 +379,32 @@ class Ui_MainWindow(object):
         self.btn_key_7.setObjectName("btn_key_7")
         self.verticalLayout_5.addWidget(self.btn_key_7)
         self.btn_key_clear = QtWidgets.QPushButton(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.btn_key_clear.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.btn_key_clear.sizePolicy().hasHeightForWidth())
         self.btn_key_clear.setSizePolicy(sizePolicy)
         font = QtGui.QFont()
         font.setFamily("Calibri")
         font.setBold(True)
         font.setWeight(75)
         self.btn_key_clear.setFont(font)
-        self.btn_key_clear.setStyleSheet("background-color: rgb(200, 209, 197);")
+        self.btn_key_clear.setStyleSheet(
+            "background-color: rgb(200, 209, 197);")
         self.btn_key_clear.setObjectName("btn_key_clear")
         self.verticalLayout_5.addWidget(self.btn_key_clear)
         self.horizontalLayout.addLayout(self.verticalLayout_5)
         self.verticalLayout_6 = QtWidgets.QVBoxLayout()
         self.verticalLayout_6.setObjectName("verticalLayout_6")
         self.btn_key_2 = QtWidgets.QPushButton(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.btn_key_2.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.btn_key_2.sizePolicy().hasHeightForWidth())
         self.btn_key_2.setSizePolicy(sizePolicy)
         font = QtGui.QFont()
         font.setFamily("Calibri")
@@ -371,10 +415,12 @@ class Ui_MainWindow(object):
         self.btn_key_2.setObjectName("btn_key_2")
         self.verticalLayout_6.addWidget(self.btn_key_2)
         self.btn_key_5 = QtWidgets.QPushButton(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.btn_key_5.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.btn_key_5.sizePolicy().hasHeightForWidth())
         self.btn_key_5.setSizePolicy(sizePolicy)
         font = QtGui.QFont()
         font.setFamily("Calibri")
@@ -385,10 +431,12 @@ class Ui_MainWindow(object):
         self.btn_key_5.setObjectName("btn_key_5")
         self.verticalLayout_6.addWidget(self.btn_key_5)
         self.btn_key_8 = QtWidgets.QPushButton(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.btn_key_8.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.btn_key_8.sizePolicy().hasHeightForWidth())
         self.btn_key_8.setSizePolicy(sizePolicy)
         font = QtGui.QFont()
         font.setFamily("Calibri")
@@ -399,10 +447,12 @@ class Ui_MainWindow(object):
         self.btn_key_8.setObjectName("btn_key_8")
         self.verticalLayout_6.addWidget(self.btn_key_8)
         self.btn_key_0 = QtWidgets.QPushButton(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.btn_key_0.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.btn_key_0.sizePolicy().hasHeightForWidth())
         self.btn_key_0.setSizePolicy(sizePolicy)
         font = QtGui.QFont()
         font.setFamily("Calibri")
@@ -416,10 +466,12 @@ class Ui_MainWindow(object):
         self.verticalLayout_7 = QtWidgets.QVBoxLayout()
         self.verticalLayout_7.setObjectName("verticalLayout_7")
         self.btn_key_3 = QtWidgets.QPushButton(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.btn_key_3.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.btn_key_3.sizePolicy().hasHeightForWidth())
         self.btn_key_3.setSizePolicy(sizePolicy)
         font = QtGui.QFont()
         font.setFamily("Calibri")
@@ -430,10 +482,12 @@ class Ui_MainWindow(object):
         self.btn_key_3.setObjectName("btn_key_3")
         self.verticalLayout_7.addWidget(self.btn_key_3)
         self.btn_key_6 = QtWidgets.QPushButton(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.btn_key_6.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.btn_key_6.sizePolicy().hasHeightForWidth())
         self.btn_key_6.setSizePolicy(sizePolicy)
         font = QtGui.QFont()
         font.setFamily("Calibri")
@@ -444,10 +498,12 @@ class Ui_MainWindow(object):
         self.btn_key_6.setObjectName("btn_key_6")
         self.verticalLayout_7.addWidget(self.btn_key_6)
         self.btn_key_9 = QtWidgets.QPushButton(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.btn_key_9.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.btn_key_9.sizePolicy().hasHeightForWidth())
         self.btn_key_9.setSizePolicy(sizePolicy)
         font = QtGui.QFont()
         font.setFamily("Calibri")
@@ -458,10 +514,12 @@ class Ui_MainWindow(object):
         self.btn_key_9.setObjectName("btn_key_9")
         self.verticalLayout_7.addWidget(self.btn_key_9)
         self.btn_key_ok = QtWidgets.QPushButton(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.btn_key_ok.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.btn_key_ok.sizePolicy().hasHeightForWidth())
         self.btn_key_ok.setSizePolicy(sizePolicy)
         font = QtGui.QFont()
         font.setFamily("Calibri")
@@ -475,10 +533,12 @@ class Ui_MainWindow(object):
         self.verticalLayout_8 = QtWidgets.QVBoxLayout()
         self.verticalLayout_8.setObjectName("verticalLayout_8")
         self.btn_key_yes = QtWidgets.QPushButton(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.btn_key_yes.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.btn_key_yes.sizePolicy().hasHeightForWidth())
         self.btn_key_yes.setSizePolicy(sizePolicy)
         font = QtGui.QFont()
         font.setFamily("Calibri")
@@ -489,10 +549,12 @@ class Ui_MainWindow(object):
         self.btn_key_yes.setObjectName("btn_key_yes")
         self.verticalLayout_8.addWidget(self.btn_key_yes)
         self.btn_key_no = QtWidgets.QPushButton(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.btn_key_no.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.btn_key_no.sizePolicy().hasHeightForWidth())
         self.btn_key_no.setSizePolicy(sizePolicy)
         font = QtGui.QFont()
         font.setFamily("Calibri")
@@ -503,31 +565,37 @@ class Ui_MainWindow(object):
         self.btn_key_no.setObjectName("btn_key_no")
         self.verticalLayout_8.addWidget(self.btn_key_no)
         self.btn_key_cancel = QtWidgets.QPushButton(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.btn_key_cancel.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.btn_key_cancel.sizePolicy().hasHeightForWidth())
         self.btn_key_cancel.setSizePolicy(sizePolicy)
         font = QtGui.QFont()
         font.setFamily("Calibri")
         font.setBold(True)
         font.setWeight(75)
         self.btn_key_cancel.setFont(font)
-        self.btn_key_cancel.setStyleSheet("background-color: rgb(200, 209, 197);")
+        self.btn_key_cancel.setStyleSheet(
+            "background-color: rgb(200, 209, 197);")
         self.btn_key_cancel.setObjectName("btn_key_cancel")
         self.verticalLayout_8.addWidget(self.btn_key_cancel)
         self.btn_key_help = QtWidgets.QPushButton(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.btn_key_help.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.btn_key_help.sizePolicy().hasHeightForWidth())
         self.btn_key_help.setSizePolicy(sizePolicy)
         font = QtGui.QFont()
         font.setFamily("Calibri")
         font.setBold(True)
         font.setWeight(75)
         self.btn_key_help.setFont(font)
-        self.btn_key_help.setStyleSheet("background-color: rgb(200, 209, 197);")
+        self.btn_key_help.setStyleSheet(
+            "background-color: rgb(200, 209, 197);")
         self.btn_key_help.setObjectName("btn_key_help")
         self.verticalLayout_8.addWidget(self.btn_key_help)
         self.horizontalLayout.addLayout(self.verticalLayout_8)
@@ -544,10 +612,12 @@ class Ui_MainWindow(object):
         self.verticalLayout_10 = QtWidgets.QVBoxLayout()
         self.verticalLayout_10.setObjectName("verticalLayout_10")
         self.gradescreen_1 = QtWidgets.QLabel(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.gradescreen_1.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.gradescreen_1.sizePolicy().hasHeightForWidth())
         self.gradescreen_1.setSizePolicy(sizePolicy)
         self.gradescreen_1.setMinimumSize(QtCore.QSize(100, 50))
         self.gradescreen_1.setMaximumSize(QtCore.QSize(1000, 50))
@@ -559,15 +629,17 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.gradescreen_1.setFont(font)
         self.gradescreen_1.setStyleSheet("background-color: rgb(216, 216, 107);\n"
-"color: rgb(0, 0, 0);")
+                                         "color: rgb(0, 0, 0);")
         self.gradescreen_1.setAlignment(QtCore.Qt.AlignCenter)
         self.gradescreen_1.setObjectName("gradescreen_1")
         self.verticalLayout_10.addWidget(self.gradescreen_1)
         self.btn_grade_1 = QtWidgets.QPushButton(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.btn_grade_1.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.btn_grade_1.sizePolicy().hasHeightForWidth())
         self.btn_grade_1.setSizePolicy(sizePolicy)
         font = QtGui.QFont()
         font.setFamily("Calibri")
@@ -581,10 +653,12 @@ class Ui_MainWindow(object):
         self.verticalLayout_12 = QtWidgets.QVBoxLayout()
         self.verticalLayout_12.setObjectName("verticalLayout_12")
         self.gradescreen_2 = QtWidgets.QLabel(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.gradescreen_2.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.gradescreen_2.sizePolicy().hasHeightForWidth())
         self.gradescreen_2.setSizePolicy(sizePolicy)
         self.gradescreen_2.setMinimumSize(QtCore.QSize(100, 50))
         self.gradescreen_2.setMaximumSize(QtCore.QSize(1000, 50))
@@ -596,15 +670,17 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.gradescreen_2.setFont(font)
         self.gradescreen_2.setStyleSheet("background-color: rgb(216, 216, 107);\n"
-"color: rgb(0, 0, 0);")
+                                         "color: rgb(0, 0, 0);")
         self.gradescreen_2.setAlignment(QtCore.Qt.AlignCenter)
         self.gradescreen_2.setObjectName("gradescreen_2")
         self.verticalLayout_12.addWidget(self.gradescreen_2)
         self.btn_grade_2 = QtWidgets.QPushButton(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.btn_grade_2.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.btn_grade_2.sizePolicy().hasHeightForWidth())
         self.btn_grade_2.setSizePolicy(sizePolicy)
         font = QtGui.QFont()
         font.setFamily("Calibri")
@@ -618,10 +694,12 @@ class Ui_MainWindow(object):
         self.verticalLayout_13 = QtWidgets.QVBoxLayout()
         self.verticalLayout_13.setObjectName("verticalLayout_13")
         self.gradescreen_3 = QtWidgets.QLabel(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.gradescreen_3.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.gradescreen_3.sizePolicy().hasHeightForWidth())
         self.gradescreen_3.setSizePolicy(sizePolicy)
         self.gradescreen_3.setMinimumSize(QtCore.QSize(100, 50))
         self.gradescreen_3.setMaximumSize(QtCore.QSize(1000, 50))
@@ -633,15 +711,17 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.gradescreen_3.setFont(font)
         self.gradescreen_3.setStyleSheet("background-color: rgb(216, 216, 107);\n"
-"color: rgb(0, 0, 0);")
+                                         "color: rgb(0, 0, 0);")
         self.gradescreen_3.setAlignment(QtCore.Qt.AlignCenter)
         self.gradescreen_3.setObjectName("gradescreen_3")
         self.verticalLayout_13.addWidget(self.gradescreen_3)
         self.btn_grade_3 = QtWidgets.QPushButton(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.btn_grade_3.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.btn_grade_3.sizePolicy().hasHeightForWidth())
         self.btn_grade_3.setSizePolicy(sizePolicy)
         font = QtGui.QFont()
         font.setFamily("Calibri")
@@ -655,10 +735,12 @@ class Ui_MainWindow(object):
         self.verticalLayout_14 = QtWidgets.QVBoxLayout()
         self.verticalLayout_14.setObjectName("verticalLayout_14")
         self.gradescreen_4 = QtWidgets.QLabel(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.gradescreen_4.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.gradescreen_4.sizePolicy().hasHeightForWidth())
         self.gradescreen_4.setSizePolicy(sizePolicy)
         self.gradescreen_4.setMinimumSize(QtCore.QSize(100, 50))
         self.gradescreen_4.setMaximumSize(QtCore.QSize(1000, 50))
@@ -670,15 +752,17 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.gradescreen_4.setFont(font)
         self.gradescreen_4.setStyleSheet("background-color: rgb(216, 216, 107);\n"
-"color: rgb(0, 0, 0);")
+                                         "color: rgb(0, 0, 0);")
         self.gradescreen_4.setAlignment(QtCore.Qt.AlignCenter)
         self.gradescreen_4.setObjectName("gradescreen_4")
         self.verticalLayout_14.addWidget(self.gradescreen_4)
         self.btn_grade_4 = QtWidgets.QPushButton(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.btn_grade_4.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.btn_grade_4.sizePolicy().hasHeightForWidth())
         self.btn_grade_4.setSizePolicy(sizePolicy)
         font = QtGui.QFont()
         font.setFamily("Calibri")
@@ -692,10 +776,12 @@ class Ui_MainWindow(object):
         self.verticalLayout_15 = QtWidgets.QVBoxLayout()
         self.verticalLayout_15.setObjectName("verticalLayout_15")
         self.gradescreen_5 = QtWidgets.QLabel(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.gradescreen_5.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.gradescreen_5.sizePolicy().hasHeightForWidth())
         self.gradescreen_5.setSizePolicy(sizePolicy)
         self.gradescreen_5.setMinimumSize(QtCore.QSize(100, 50))
         self.gradescreen_5.setMaximumSize(QtCore.QSize(1000, 50))
@@ -707,16 +793,18 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.gradescreen_5.setFont(font)
         self.gradescreen_5.setStyleSheet("background-color: rgb(216, 216, 107);\n"
-"color: rgb(0, 0, 0);")
+                                         "color: rgb(0, 0, 0);")
         self.gradescreen_5.setText("")
         self.gradescreen_5.setAlignment(QtCore.Qt.AlignCenter)
         self.gradescreen_5.setObjectName("gradescreen_5")
         self.verticalLayout_15.addWidget(self.gradescreen_5)
         self.btn_grade_5 = QtWidgets.QPushButton(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.btn_grade_5.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.btn_grade_5.sizePolicy().hasHeightForWidth())
         self.btn_grade_5.setSizePolicy(sizePolicy)
         font = QtGui.QFont()
         font.setFamily("Calibri")
@@ -730,10 +818,12 @@ class Ui_MainWindow(object):
         self.verticalLayout_16 = QtWidgets.QVBoxLayout()
         self.verticalLayout_16.setObjectName("verticalLayout_16")
         self.gradescreen_7 = QtWidgets.QLabel(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.gradescreen_7.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.gradescreen_7.sizePolicy().hasHeightForWidth())
         self.gradescreen_7.setSizePolicy(sizePolicy)
         self.gradescreen_7.setMinimumSize(QtCore.QSize(100, 50))
         self.gradescreen_7.setMaximumSize(QtCore.QSize(1000, 50))
@@ -745,16 +835,18 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.gradescreen_7.setFont(font)
         self.gradescreen_7.setStyleSheet("background-color: rgb(216, 216, 107);\n"
-"color: rgb(0, 0, 0);")
+                                         "color: rgb(0, 0, 0);")
         self.gradescreen_7.setText("")
         self.gradescreen_7.setAlignment(QtCore.Qt.AlignCenter)
         self.gradescreen_7.setObjectName("gradescreen_7")
         self.verticalLayout_16.addWidget(self.gradescreen_7)
         self.btn_grade_6 = QtWidgets.QPushButton(self.centralwidget)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy = QtWidgets.QSizePolicy(
+            QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.btn_grade_6.sizePolicy().hasHeightForWidth())
+        sizePolicy.setHeightForWidth(
+            self.btn_grade_6.sizePolicy().hasHeightForWidth())
         self.btn_grade_6.setSizePolicy(sizePolicy)
         font = QtGui.QFont()
         font.setFamily("Calibri")
@@ -774,7 +866,8 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "7-11 DexSimulator"))
+        MainWindow.setWindowTitle(_translate(
+            "MainWindow", "7-11 DexSimulator"))
         self.label_3.setText(_translate("MainWindow", "CRIND"))
         self.label_4.setText(_translate("MainWindow", "PUMP"))
         self.label.setText(_translate("MainWindow", "DOLLARS"))
@@ -784,29 +877,29 @@ class Ui_MainWindow(object):
         self.screen.setText(_translate("MainWindow", "PLEASE PAY INSIDE"))
         self.btn_cardinsert.setText(_translate("MainWindow", "CARD INSERT"))
         self.btn_key_1.setText(_translate("MainWindow", "QZ\n"
-"1"))
+                                          "1"))
         self.btn_key_4.setText(_translate("MainWindow", "GHI\n"
-"4"))
+                                          "4"))
         self.btn_key_7.setText(_translate("MainWindow", "PRS\n"
-"7"))
+                                          "7"))
         self.btn_key_clear.setText(_translate("MainWindow", "CLEAR"))
         self.btn_key_2.setText(_translate("MainWindow", "ABC\n"
-"2"))
+                                          "2"))
         self.btn_key_5.setText(_translate("MainWindow", "JKL\n"
-"5"))
+                                          "5"))
         self.btn_key_8.setText(_translate("MainWindow", "TUV\n"
-"8"))
+                                          "8"))
         self.btn_key_0.setText(_translate("MainWindow", "0"))
         self.btn_key_3.setText(_translate("MainWindow", "DEF\n"
-"3"))
+                                          "3"))
         self.btn_key_6.setText(_translate("MainWindow", "MNO\n"
-"6"))
+                                          "6"))
         self.btn_key_9.setText(_translate("MainWindow", "WXY\n"
-"9"))
+                                          "9"))
         self.btn_key_ok.setText(_translate("MainWindow", "ENTER\n"
-"OK"))
+                                           "OK"))
         self.btn_key_yes.setText(_translate("MainWindow", "YES\n"
-"RECEIPT"))
+                                            "RECEIPT"))
         self.btn_key_no.setText(_translate("MainWindow", "NO"))
         self.btn_key_cancel.setText(_translate("MainWindow", "CANCEL"))
         self.btn_key_help.setText(_translate("MainWindow", "HELP"))
